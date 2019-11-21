@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box
-
 }
 
 body{
@@ -16,14 +15,22 @@ a {
 .top-header {
     background: #4aaaa5;
 }
+.name-box {
+    background:black;
+    position: fixed;
+    margin-top: 10px;
+}
 
-.container {
-    width: 960px; 
-    background: black;   
+.header-div {
+    background-color: white;
 }
 
 div {
     color: #777777;
+}
+
+.copyright {
+    align:center
 }
 
 div img {
@@ -38,20 +45,18 @@ div::after {
     clear: both;
 }
 
-.sidebar {
-    float:left;
-}
-
 
 .sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 50px;
     clear: both;
     background: #666666;
+    padding: 30px;
+
 }
 
-.main-content {
-    float: right;
-}
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
