@@ -18,6 +18,12 @@ header {
     background-color: var(--dark-blue);
   }
   
+.paragraph {
+  color: #777777;
+  line-height: 1.6;
+  text-wrap: wrap; 
+ }
+
   .header-wrapper {
     width: 90%;
     margin: 0 auto;
@@ -77,8 +83,8 @@ div {
 }
 
 .copyright {
-    align:center
-}
+color: white;
+text-align: center;}
 
 div img {
     float:left;
