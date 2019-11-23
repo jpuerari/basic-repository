@@ -8,9 +8,24 @@ body{
   background-image: url('../images/cork-board.png');
 }
 
+.wrapper {
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+}
+
+a {
+  align-content: right;
+}
+
 header {
   width: 100%;
   background-color: #ffffff;
+  
 }
 
 .paragraph {
@@ -19,21 +34,12 @@ line-height: 1.6;
 text-wrap: wrap; 
 }
 
-.header-wrap {
-  margin: 0 auto;
-  background: white;
-  padding: 7px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 90%;
-}
-
 .h1-class {
   margin: 0;
   background-color: #4aaaa5;
   padding: 20px 15px;
   color: white;
+  border-color: black;
 }
 
  nav a {
@@ -44,7 +50,7 @@ text-wrap: wrap;
   font-size: 20px;
   padding: 0 15px;
   text-decoration: none;
-  border-right: none;
+  border-right: 2px solid;
   color: #777777;
 }
 
@@ -78,15 +84,19 @@ div::after {
   content: "";
   display: block;
   clear: both;
+} 
+
+.flex-item {
+  flex-wrap: wrap;
+
 }
 
 .sticky-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 50px;
-  clear: both;
   background: #666666;
-  padding: 30px;
+  padding: 20px;
+  flex-shrink: 0;
   border-top: 8px solid #4aaaa5;
 }
