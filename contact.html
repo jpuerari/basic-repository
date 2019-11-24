@@ -2,53 +2,62 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="assets/CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Page</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header>
 
-        <div class="wrapper">
-            <h1 class="h1-class"> 
+
+
+    <header>
+        <div class="header-wrapper">
+            <h1>
                 Joseph D. Puerari
             </h1>
 
-
             <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a href="#">About Me</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
             </nav>
         </div>
     </header>
 
-
     <div class="container">
+        <h2>
+            Contact
+        </h2>
 
-    <h2>Contact</h2>
-    <form>
-        Name: <br>
-        <input type="text" name="Name"><br>
-        Email: <br>
-        <input type="text" name="Email"><br>
-        Message: <br>
-        <input type="text" name="Message"><br>
-        <input type="submit" value="Submit"/>
-    </form>
-</div>
+            <form class="form">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="Email">Email</label>
+                <br>
+                <input type="text" id="email" name="Email">
+                <br>
+                <label for="Message">Message</label>
+                <br>
+                <input type="text" id="Message" name="Message">
+                <br><br>
+                <input type="Submit" id="Submit" value="Submit">
+                <br><br>
 
+            </form>
 
-    </form>
+        
 
-
+    </div>
 
     <footer class="sticky-footer">
         <div class="copyright">Copyright&copy;</div>
     </footer>
+
 
 </body>
 
